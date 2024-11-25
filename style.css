@@ -59,6 +59,7 @@ body * {
 }
 
 #switch {
+  cursor: pointer;
   position: relative;
   width: 64px;
   height: 24px;
@@ -66,6 +67,7 @@ body * {
 }
 
 #switch button {
+  cursor: pointer;
   width: 32px;
   height: 32px;
   background: white var(--switch-bg-url) no-repeat center;
@@ -77,6 +79,11 @@ body * {
   left: 0px;
   transform: translateY(-50%);
   z-index: 1;
+}
+
+.light #switch button {
+  right: 0;
+  left: initial;
 }
 
 #switch span {
