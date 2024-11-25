@@ -15,6 +15,7 @@ body {
 #container {
   width: 360px;
   margin: 56px auto 0px;
+  padding: 0px 24px;
 }
 
 #profile {
@@ -39,7 +40,8 @@ ul {
   display: flex;
   flex-direction: column;
   list-style: none;
-  gap: 10px; /* Espaçamento entre os elementos */
+  padding: 24px 0px;
+  gap: 15px; /* Espaçamento entre os elementos */
 }
 
 li a {
@@ -61,4 +63,17 @@ li a:hover {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.05);
   border: 1.5px #ffffff solid;
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin: 24px 0px;
+  font-size: 24px;
+}
+
+#social-links:hover {
+  padding: 16px;
 }
